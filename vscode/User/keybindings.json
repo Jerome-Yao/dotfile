@@ -1,1 +1,12 @@
-/Users/ysq/Library/Application Support/Code/User/keybindings.json
+// Place your key bindings in this file to override the defaults
+[{
+    "key": "shift+k",
+    "command": "cursorPageUp",
+    "when": "editorTextFocus && vim.mode == 'Normal'"
+},{
+    "key": "shift+j",
+    "command": "cursorPageDown",
+    "when": "editorTextFocus && vim.mode == 'Normal'"
+},
+
+]
